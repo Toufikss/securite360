@@ -9,6 +9,7 @@ from database import Database
 from utils.config import APP_NAME, APP_VERSION, GLOBAL_CSS, COLORS
 from utils.icons import get_sidebar_icon
 from logo import logo_config
+from init_cloud_db import check_and_init_if_needed
 
 # Configuration de la page
 st.set_page_config(
@@ -100,6 +101,9 @@ if 'data_initialized' not in st.session_state:
 
 def main():
     """Fonction principale de l'application"""
+    
+    # Initialisation de la base de données pour Streamlit Cloud
+    check_and_init_if_needed()
     
     # Vérifier l'authentification
     if not auth.is_authenticated():
