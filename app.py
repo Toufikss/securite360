@@ -63,35 +63,6 @@ st.markdown("""
         padding-left: 1rem;
     }
 </style>
-
-<script>
-    // Force la sidebar à rester visible en JavaScript
-    const ensureSidebarVisible = () => {
-        const sidebar = document.querySelector('section[data-testid="stSidebar"]');
-        if (sidebar) {
-            sidebar.style.display = 'block';
-            sidebar.style.visibility = 'visible';
-            sidebar.style.width = '21rem';
-            sidebar.setAttribute('aria-expanded', 'true');
-        }
-    };
-    
-    // Exécuter au chargement
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', ensureSidebarVisible);
-    } else {
-        ensureSidebarVisible();
-    }
-    
-    // Observer les changements et forcer la visibilité
-    const observer = new MutationObserver(ensureSidebarVisible);
-    observer.observe(document.body, { 
-        childList: true, 
-        subtree: true, 
-        attributes: true, 
-        attributeFilter: ['style', 'aria-expanded'] 
-    });
-</script>
 """, unsafe_allow_html=True)
 
 # Initialisation des modules
