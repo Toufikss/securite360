@@ -1,0 +1,565 @@
+{
+  "annexe": "A",
+  "norme": "ISO/IEC 27001:2022",
+  "titre": "Mesures de sécurité de l'information",
+  "criteres": [
+    {
+      "code": "5.1",
+      "titre": "Politiques de sécurité de l'information",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Une politique de sécurité de l'information et des politiques spécifiques à une thématique doivent être définies, approuvées par la direction, publiées, communiquées et demandée en confirmation au personnel et aux parties intéressées concernés, ainsi que révisées à intervalles planifiés et si des changements significatifs ont lieu."
+    },
+    {
+      "code": "5.2",
+      "titre": "Fonctions et responsabilités liées à la sécurité de l'information",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les fonctions et responsabilités liées à la sécurité de l'information doivent être définies et attribuées selon les besoins de l'organisation."
+    },
+    {
+      "code": "5.3",
+      "titre": "Séparation des tâches",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les tâches et les domaines de responsabilité incompatibles doivent être séparés."
+    },
+    {
+      "code": "5.4",
+      "titre": "Responsabilités de la direction",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "La direction doit demander à tout le personnel d'appliquer les mesures de sécurité de l'information conformément à la politique de sécurité de l'information, aux politiques spécifiques à une thématique et aux procédures établies de l'organisation."
+    },
+    {
+      "code": "5.5",
+      "titre": "Contacts avec les autorités",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'organisation doit établir et maintenir le contact avec les autorités appropriées."
+    },
+    {
+      "code": "5.6",
+      "titre": "Contacts avec des groupes d'intérêt spécifiques",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'organisation doit établir et maintenir des contacts avec des groupes d'intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles."
+    },
+    {
+      "code": "5.7",
+      "titre": "Renseignement sur les menaces",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les informations relatives aux menaces de sécurité de l'information doivent être collectées et analysées pour produire les renseignements sur les menaces."
+    },
+    {
+      "code": "5.8",
+      "titre": "Sécurité de l'information dans la gestion de projet",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "La sécurité de l'information doit être intégrée à la gestion de projet."
+    },
+    {
+      "code": "5.9",
+      "titre": "Inventaire des informations et autres actifs associés",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Un inventaire des informations et des autres actifs associés, y compris leurs propriétaires, doit être élaboré et tenu à jour."
+    },
+    {
+      "code": "5.10",
+      "titre": "Utilisation correcte des informations et autres actifs associés",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Des règles d'utilisation correcte et des procédures de traitement des informations et autres actifs associés doivent être identifiées, documentées et mises en œuvre."
+    },
+    {
+      "code": "5.11",
+      "titre": "Restitution des actifs",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Le personnel et les autres parties intéressées, selon le cas, doivent restituer tous les actifs de l'organisation qui sont en leur possession au moment du changement ou de la fin de leur emploi, contrat ou accord."
+    },
+    {
+      "code": "5.12",
+      "titre": "Classification des informations",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les informations doivent être classifiées conformément aux besoins de sécurité de l'information de l'organisation, sur la base des exigences de confidentialité, d'intégrité, de disponibilité, et des exigences importantes des parties intéressées."
+    },
+    {
+      "code": "5.13",
+      "titre": "Marquage des informations",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Un ensemble approprié de procédures pour le marquage des informations doit être élaboré et mis en œuvre conformément au schéma de classification des informations adopté par l'organisation."
+    },
+    {
+      "code": "5.14",
+      "titre": "Transfert des informations",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Des règles, procédures ou accords sur le transfert des informations doivent être mis en place pour tous les types de moyens de transfert au sein de l'organisation et entre l'organisation et des tierces parties."
+    },
+    {
+      "code": "5.15",
+      "titre": "Contrôle d'accès",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Des règles visant à contrôler l'accès physiques et logique aux informations et autres actifs associés doivent être définies et mises en œuvre, en fonction des exigences métier et de sécurité de l'information."
+    },
+    {
+      "code": "5.16",
+      "titre": "Gestion des identités",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Le cycle de vie complet des identités doit être géré."
+    },
+    {
+      "code": "5.17",
+      "titre": "Informations d'authentification",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'attribution et la gestion des informations d'authentification doivent être contrôlées par un processus de gestion, incluant des recommandations au personnel sur l'utilisation appropriée des informations d'authentification."
+    },
+    {
+      "code": "5.18",
+      "titre": "Droits d'accès",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les droits d'accès aux informations et autres actifs associés doivent être pourvus, révisés, modifiés et supprimés conformément à la politique spécifique à la thématique du contrôle d'accès et aux règles de contrôle d'accès de l'organisation."
+    },
+    {
+      "code": "5.19",
+      "titre": "Sécurité de l'information dans les relations avec les fournisseurs",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Des processus et procédures pour gérer les risques de sécurité de l'information qui sont associés à l'utilisation des produits ou services du fournisseur doivent être définis et mis en œuvre."
+    },
+    {
+      "code": "5.20",
+      "titre": "La sécurité de l'information dans les accords conclus avec les fournisseurs",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les exigences de sécurité de l'information appropriées doivent être mises en place et convenues avec chaque fournisseur, selon le type de relation avec le fournisseur."
+    },
+    {
+      "code": "5.21",
+      "titre": "Gestion de la sécurité de l'information dans la chaîne d'approvisionnement des technologies de l'information et de la communication (TIC)",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Des processus et procédures pour gérer les risques de sécurité de l'information associés à la chaîne d'approvisionnement des produits et services TIC doivent être définis et mis en œuvre."
+    },
+    {
+      "code": "5.22",
+      "titre": "Surveillance, révision et gestion des changements des services fournisseurs",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'organisation doit procéder régulièrement à la surveillance, à la révision, à l'évaluation et à la gestion des changements des pratiques de sécurité de l'information du fournisseur et de prestation de services."
+    },
+    {
+      "code": "5.23",
+      "titre": "Sécurité de l'information dans l'utilisation de services en nuage",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les processus d'acquisition, d'utilisation, de gestion et de cessation des services en nuage doivent être établis conformément aux exigences de sécurité de l'information de l'organisation."
+    },
+    {
+      "code": "5.24",
+      "titre": "Planification et préparation de la gestion des incidents de sécurité de l'information",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'organisation doit planifier et préparer la gestion des incidents de sécurité de l'information en procédant à la définition, à l'établissement et à la communication des processus, fonctions et responsabilités liés à la gestion des incidents de sécurité de l'information."
+    },
+    {
+      "code": "5.25",
+      "titre": "Évaluation des événements de sécurité de l'information et prise de décision",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'organisation doit évaluer les événements de sécurité de l'information et décider s'ils doivent être catégorisés comme des incidents de sécurité de l'information."
+    },
+    {
+      "code": "5.26",
+      "titre": "Réponse aux incidents de sécurité de l'information",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "La réponse aux incidents de sécurité de l'information doit être conforme aux procédures documentées."
+    },
+    {
+      "code": "5.27",
+      "titre": "Tirer des enseignements des incidents de sécurité de l'information",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les connaissances acquises à partir des incidents de sécurité de l'information doivent être utilisées pour renforcer et améliorer les mesures de sécurité de l'information."
+    },
+    {
+      "code": "5.28",
+      "titre": "Collecte de preuves",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'organisation doit établir et mettre en œuvre des procédures pour l'identification, la collecte, l'acquisition et la préservation des preuves relatives aux événements de sécurité de l'information."
+    },
+    {
+      "code": "5.29",
+      "titre": "Sécurité de l'information pendant une perturbation",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'organisation doit planifier comment maintenir la sécurité de l'information au niveau approprié pendant une perturbation."
+    },
+    {
+      "code": "5.30",
+      "titre": "Préparation des TIC pour la continuité d'activité",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "La préparation des TIC doit être planifiée, mise en œuvre, maintenue et testée en se basant sur les objectifs de continuité d'activité et des exigences de continuité des TIC."
+    },
+    {
+      "code": "5.31",
+      "titre": "Exigences légales, statutaires, réglementaires et contractuelles",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les exigences légales, statutaires, réglementaires et contractuelles pertinentes pour la sécurité de l'information, ainsi que l'approche de l'organisation pour respecter ces exigences, doivent être identifiées, documentées et tenues à jour."
+    },
+    {
+      "code": "5.32",
+      "titre": "Droits de propriété intellectuelle",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'organisation doit mettre en œuvre les procédures appropriées pour protéger les droits de propriété intellectuelle."
+    },
+    {
+      "code": "5.33",
+      "titre": "Protection des enregistrements",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les enregistrements doivent être protégés de la perte, de la destruction, de la falsification, des accès non autorisés et des diffusions non autorisées."
+    },
+    {
+      "code": "5.34",
+      "titre": "Protection de la vie privée et des données à caractère personnel (DCP)",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'organisation doit identifier et respecter les exigences relatives à la protection de la vie privée et des DCP conformément aux lois, réglementations et exigences contractuelles applicables."
+    },
+    {
+      "code": "5.35",
+      "titre": "Révision indépendante de la sécurité de l'information",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "L'approche de l'organisation pour gérer la sécurité de l'information et sa mise en œuvre, y compris les personnes, les processus et les technologies, doit être révisée de manière indépendante à intervalles planifiés, ou lorsque des changements significatifs se produisent."
+    },
+    {
+      "code": "5.36",
+      "titre": "Conformité aux politiques, règles et normes de sécurité de l'information",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "La conformité à la politique de sécurité de l'information, aux politiques spécifiques à une thématique, aux règles et aux normes de l'organisation doit être régulièrement vérifiée."
+    },
+    {
+      "code": "5.37",
+      "titre": "Procédures d'exploitation documentées",
+      "categorie": "Mesures de sécurité organisationnelles",
+      "commentaire": "Les procédures d'exploitation des moyens de traitement de l'information doivent être documentées et mises à disposition du personnel qui en a besoin."
+    },
+    {
+      "code": "6.1",
+      "titre": "Sélection des candidats",
+      "categorie": "Mesures de sécurité applicables aux personnes",
+      "commentaire": "Les vérifications des références de tous les candidats à l'embauche doivent être réalisées avant qu'ils n'intègrent l'organisation puis de façon continue en tenant compte des lois, des réglementations et de l'éthique applicables, et doivent être proportionnelles aux exigences métier, à la classification des informations auxquelles ils auront accès et aux risques identifiés."
+    },
+    {
+      "code": "6.2",
+      "titre": "Termes et conditions du contrat de travail",
+      "categorie": "Mesures de sécurité applicables aux personnes",
+      "commentaire": "Les contrats de travail doivent indiquer les responsabilités du personnel et de l'organisation en matière de sécurité de l'information."
+    },
+    {
+      "code": "6.3",
+      "titre": "Sensibilisation, enseignement et formation en sécurité de l'information",
+      "categorie": "Mesures de sécurité applicables aux personnes",
+      "commentaire": "Le personnel de l'organisation et les parties intéressées pertinentes doivent recevoir une sensibilisation, un enseignement et des formations en sécurité de l'information appropriés, ainsi que des mises à jour régulières de la politique de sécurité de l'information, des politiques spécifiques à une thématique et des procédures de l'organisation pertinentes à leur fonction."
+    },
+    {
+      "code": "6.4",
+      "titre": "Processus disciplinaire",
+      "categorie": "Mesures de sécurité applicables aux personnes",
+      "commentaire": "Un processus disciplinaire permettant de prendre des mesures à l'encontre du personnel et d'autres parties intéressées qui ont commis une violation de la politique de sécurité de l'information doit être formalisé et communiqué."
+    },
+    {
+      "code": "6.5",
+      "titre": "Responsabilités après la fin ou le changement d'un emploi",
+      "categorie": "Mesures de sécurité applicables aux personnes",
+      "commentaire": "Les responsabilités et les obligations relatives à la sécurité de l'information qui restent valables après la fin ou le changement d'un emploi doivent être définies, appliquées et communiquées au personnel et autres parties intéressées pertinentes."
+    },
+    {
+      "code": "6.6",
+      "titre": "Accords de confidentialité ou de non-divulgation",
+      "categorie": "Mesures de sécurité applicables aux personnes",
+      "commentaire": "Des accords de confidentialité ou de non-divulgation, représentant les besoins de l'organisation relatifs à la protection des informations, doivent être identifiés, documentés, régulièrement révisés et signés."
+    },
+    {
+      "code": "6.7",
+      "titre": "Travail à distance",
+      "categorie": "Mesures de sécurité applicables aux personnes",
+      "commentaire": "Des mesures de sécurité doivent être mises en œuvre lorsque le personnel travaille à distance, pour protéger les informations accessibles, traitées ou stockées en dehors des locaux de l'organisation."
+    },
+    {
+      "code": "6.8",
+      "titre": "Déclaration des événements de sécurité de l'information",
+      "categorie": "Mesures de sécurité applicables aux personnes",
+      "commentaire": "L'organisation doit fournir un mécanisme au personnel pour déclarer rapidement les événements de sécurité de l'information observés ou suspectés, à travers des canaux appropriés."
+    },
+    {
+      "code": "7.1",
+      "titre": "Périmètres de sécurité physique",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Des périmètres de sécurité doivent être définis et utilisés pour protéger les zones qui contiennent les informations et autres actifs associés."
+    },
+    {
+      "code": "7.2",
+      "titre": "Les entrées physiques",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Les zones sécurisées doivent être protégées par des mesures de sécurité des accès et des points d'accès appropriés."
+    },
+    {
+      "code": "7.3",
+      "titre": "Sécurisation des bureaux, des salles et des installations",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Des mesures de sécurité physique pour les bureaux, les salles et les installations doivent être conçues et mises en œuvre."
+    },
+    {
+      "code": "7.4",
+      "titre": "Surveillance de la sécurité physique",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Les locaux doivent être continuellement surveillés pour empêcher l'accès physique non autorisé."
+    },
+    {
+      "code": "7.5",
+      "titre": "Protection contre les menaces physiques et environnementales",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Une protection contre les menaces physiques et environnementales, telles que les catastrophes naturelles et autres menaces physiques, intentionnelles ou non intentionnelles, impactant l'infrastructure, doit être conçue et mise en œuvre."
+    },
+    {
+      "code": "7.6",
+      "titre": "Travail dans les zones sécurisées",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Des mesures de sécurité pour le travail dans les zones sécurisées doivent être conçues et mises en œuvre."
+    },
+    {
+      "code": "7.7",
+      "titre": "Bureau propre et écran vide",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Des règles du bureau vide, dégagé des documents papier et des supports de stockage amovibles, et des règles de l'écran vide pour les moyens de traitement de l'information, doivent être définies et appliquées de manière appropriée."
+    },
+    {
+      "code": "7.8",
+      "titre": "Emplacement et protection du matériel",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Un emplacement sécurisé pour le matériel doit être choisi et protégé."
+    },
+    {
+      "code": "7.9",
+      "titre": "Sécurité des actifs hors des locaux",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Les actifs hors du site doivent être protégés."
+    },
+    {
+      "code": "7.10",
+      "titre": "Supports de stockage",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Les supports de stockage doivent être gérés tout au long de leur cycle de vie d'acquisition, d'utilisation, de transport et de mise au rebut, conformément au schéma de classification et aux exigences de traitement de l'organisation."
+    },
+    {
+      "code": "7.11",
+      "titre": "Services supports",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Les moyens de traitement de l'information doivent être protégés contre les coupures de courant et autres perturbations causées par des défaillances des services supports."
+    },
+    {
+      "code": "7.12",
+      "titre": "Sécurité du câblage",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Les câbles électriques, transportant des données ou supportant les services d'information, doivent être protégés contre des interceptions, interférences ou dommages."
+    },
+    {
+      "code": "7.13",
+      "titre": "Maintenance du matériel",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Le matériel doit être entretenu correctement pour assurer la disponibilité, l'intégrité et la confidentialité de l'information."
+    },
+    {
+      "code": "7.14",
+      "titre": "Élimination ou recyclage sécurisé(e) du matériel",
+      "categorie": "Mesures de sécurité physique",
+      "commentaire": "Les éléments du matériel contenant des supports de stockage doivent être vérifiés pour s'assurer que toute donnée sensible et que tout logiciel sous licence ont été supprimés ou écrasés de façon sécurisée, avant son élimination ou sa réutilisation."
+    },
+    {
+      "code": "8.1",
+      "titre": "Terminaux finaux des utilisateurs",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les informations stockées, traitées ou accessibles via les terminaux finaux des utilisateurs, doivent être protégées."
+    },
+    {
+      "code": "8.2",
+      "titre": "Droits d'accès privilégiés",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "L'attribution et l'utilisation des droits d'accès privilégiés doivent être limitées et gérées."
+    },
+    {
+      "code": "8.3",
+      "titre": "Restriction d'accès aux informations",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "L'accès aux informations et autres actifs associés doit être restreint conformément à la politique spécifique à la thématique du contrôle d'accès qui a été établie."
+    },
+    {
+      "code": "8.4",
+      "titre": "Accès aux codes source",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "L'accès en lecture et en écriture au code source, aux outils de développement et aux bibliothèques de logiciels doit être géré de manière appropriée."
+    },
+    {
+      "code": "8.5",
+      "titre": "Authentification sécurisée",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des technologies et procédures d'authentification sécurisées doivent être mises en œuvre sur la base des restrictions d'accès aux informations et de la politique spécifique à la thématique du contrôle d'accès."
+    },
+    {
+      "code": "8.6",
+      "titre": "Dimensionnement",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "L'utilisation des ressources doit être surveillée et ajustée selon les besoins de dimensionnement actuels et prévus."
+    },
+    {
+      "code": "8.7",
+      "titre": "Protection contre les programmes malveillants (malware)",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Une protection contre les programmes malveillants doit être mise en œuvre et renforcée par une sensibilisation appropriée des utilisateurs."
+    },
+    {
+      "code": "8.8",
+      "titre": "Gestion des vulnérabilités techniques",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des informations sur les vulnérabilités techniques des systèmes d'information utilisés doivent être obtenues, l'exposition de l'organisation à ces vulnérabilités doit être évaluée et des mesures appropriées doivent être prises."
+    },
+    {
+      "code": "8.9",
+      "titre": "Gestion des configurations",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les configurations, y compris les configurations de sécurité, du matériel, des logiciels, des services et des réseaux, doivent être définies, documentées, mises en œuvre, surveillées et révisées."
+    },
+    {
+      "code": "8.10",
+      "titre": "Suppression des informations",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les informations stockées dans les systèmes d'information, les terminaux ou tout autre support de stockage doivent être supprimées lorsqu'elles ne sont plus nécessaires."
+    },
+    {
+      "code": "8.11",
+      "titre": "Masquage des données",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Le masquage des données doit être utilisé conformément à la politique spécifique à la thématique du contrôle d'accès de l'organisation et d'autres politiques spécifiques à une thématique associées, ainsi qu'aux exigences métier, tout en prenant en compte la législation applicable."
+    },
+    {
+      "code": "8.12",
+      "titre": "Prévention de la fuite de données",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des mesures de prévention de la fuite de données doivent être appliquées aux systèmes, aux réseaux et à tous les autres terminaux qui traitent, stockent ou transmettent des informations sensibles."
+    },
+    {
+      "code": "8.13",
+      "titre": "Sauvegarde des informations",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des copies de sauvegarde de l'information, des logiciels et des systèmes doivent être conservées et testées régulièrement selon la politique spécifique à la thématique de la sauvegarde qui a été convenue."
+    },
+    {
+      "code": "8.14",
+      "titre": "Redondance des moyens de traitement de l'information",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des moyens de traitement de l'information doivent être mis en œuvre avec suffisamment de redondances pour répondre aux exigences de disponibilité."
+    },
+    {
+      "code": "8.15",
+      "titre": "Journalisation",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des journaux qui enregistrent les activités, les exceptions, les pannes et autres événements pertinents doivent être générés, conservés, protégés et analysés."
+    },
+    {
+      "code": "8.16",
+      "titre": "Activités de surveillance",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les réseaux, systèmes et applications doivent être surveillés pour détecter les comportements anormaux et des mesures appropriées doivent être prises pour évaluer les éventuels incidents de sécurité de l'information."
+    },
+    {
+      "code": "8.17",
+      "titre": "Synchronisation des horloges",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les horloges des systèmes de traitement de l'information utilisés par l'organisation doivent être synchronisées avec des sources de temps approuvées."
+    },
+    {
+      "code": "8.18",
+      "titre": "Utilisation de programmes utilitaires à privilèges",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "L'utilisation des programmes utilitaires ayant la capacité de contourner les mesures de sécurité des systèmes ou des applications doit être limitée et contrôlée étroitement."
+    },
+    {
+      "code": "8.19",
+      "titre": "Installation de logiciels sur des systèmes opérationnels",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des procédures et des mesures doivent être mises en œuvre pour gérer de manière sécurisée l'installation de logiciels sur les systèmes opérationnels."
+    },
+    {
+      "code": "8.20",
+      "titre": "Sécurité des réseaux",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les réseaux et les terminaux réseau doivent être sécurisés, gérés et contrôlés pour protéger les informations des systèmes et des applications."
+    },
+    {
+      "code": "8.21",
+      "titre": "Sécurité des services réseau",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les mécanismes de sécurité, les niveaux de service et les exigences de services des services réseau doivent être identifiés, mis en œuvre et surveillés."
+    },
+    {
+      "code": "8.22",
+      "titre": "Cloisonnement des réseaux",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les groupes de services d'information, d'utilisateurs et de systèmes d'information doivent être cloisonnés dans les réseaux de l'organisation."
+    },
+    {
+      "code": "8.23",
+      "titre": "Filtrage web",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "L'accès aux sites web externes doit être géré pour réduire l'exposition aux contenus malveillants."
+    },
+    {
+      "code": "8.24",
+      "titre": "Utilisation de la cryptographie",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des règles pour l'utilisation efficace de la cryptographie, notamment la gestion des clés cryptographiques, doivent être définies et mises en œuvre."
+    },
+    {
+      "code": "8.25",
+      "titre": "Cycle de vie de développement sécurisé",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des règles pour le développement sécurisé des logiciels et des systèmes doivent être définies et appliquées."
+    },
+    {
+      "code": "8.26",
+      "titre": "Exigences de sécurité des applications",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les exigences de sécurité de l'information doivent être identifiées, spécifiées et approuvées lors du développement ou de l'acquisition d'applications."
+    },
+    {
+      "code": "8.27",
+      "titre": "Principes d'ingénierie et d'architecture des systèmes sécurisés",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des principes d'ingénierie des systèmes sécurisés doivent être établis, documentés, tenus à jour et appliqués à toutes les activités de développement de systèmes d'information."
+    },
+    {
+      "code": "8.28",
+      "titre": "Codage sécurisé",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des principes de codage sécurisé doivent être appliqués au développement de logiciels."
+    },
+    {
+      "code": "8.29",
+      "titre": "Tests de sécurité dans le développement et l'acceptation",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Des processus pour les tests de sécurité doivent être définis et mis en œuvre au cours du cycle de vie de développement."
+    },
+    {
+      "code": "8.30",
+      "titre": "Développement externalisé",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "L'organisation doit diriger, contrôler et vérifier les activités relatives au développement externalisé des systèmes."
+    },
+    {
+      "code": "8.31",
+      "titre": "Séparation des environnements de développement, de test et opérationnels",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les environnements de développement, de test et opérationnels doivent être séparés et sécurisés."
+    },
+    {
+      "code": "8.32",
+      "titre": "Gestion des changements",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les changements apportés aux moyens de traitement de l'information et aux systèmes d'information doivent être soumis à des procédures de gestion des changements."
+    },
+    {
+      "code": "8.33",
+      "titre": "Informations de test",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les informations de test doivent être sélectionnées, protégées et gérées de manière appropriée."
+    },
+    {
+      "code": "8.34",
+      "titre": "Protection des systèmes d'information pendant les tests d'audit",
+      "categorie": "Mesures de sécurité technologiques",
+      "commentaire": "Les tests d'audit et autres activités d'assurance impliquant l'évaluation des systèmes opérationnels doivent être planifiés et convenus entre le testeur et le niveau approprié de la direction."
+    }
+  ]
+}
