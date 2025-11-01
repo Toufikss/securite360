@@ -69,6 +69,35 @@ st.markdown("""
 auth = Auth()
 db = Database()
 
+# Initialisation automatique des données par défaut (pour Streamlit Cloud)
+if 'data_initialized' not in st.session_state:
+    with st.spinner("🔄 Initialisation de la base de données..."):
+        try:
+            # Vérifier si des données existent déjà
+            conn = db.get_connection()
+            cursor = conn.cursor()
+            cursor.execute("SELECT COUNT(*) FROM users")
+            user_count = cursor.fetchone()[0]
+            cursor.execute("SELECT COUNT(*) FROM criteres") 
+            criteria_count = cursor.fetchone()[0]
+            db._close_conn(conn)
+            
+            # Initialiser seulement si nécessaire
+            if user_count == 0:
+                db.init_default_users()
+                st.success("✅ Utilisateurs par défaut créés")
+            
+            if criteria_count == 0:
+                db.init_iso_criteria()
+                st.success("✅ Critères ISO 27001 initialisés")
+            
+            st.session_state.data_initialized = True
+            st.success("🎉 Base de données initialisée avec succès!")
+            
+        except Exception as e:
+            st.error(f"❌ Erreur lors de l'initialisation: {str(e)}")
+            st.session_state.data_initialized = False
+
 def main():
     """Fonction principale de l'application"""
     
