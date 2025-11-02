@@ -82,7 +82,7 @@ Securite360/
 ##  Identifiants de test
 
 ### Administrateur
-- **Identifiant:** `toufiksalah`
+- **Identifiant:** `Sécurité360`
 - **Mot de passe:** `Admin@2025`
 - **Permissions:** Accès complet
 

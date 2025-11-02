@@ -47,7 +47,7 @@ def init_cloud_database():
             
             if init_messages:
                 st.success("🎉 Base de données initialisée avec succès sur Streamlit Cloud!")
-                st.info("**Comptes par défaut créés :**\n- **Admin :** toufiksalah / Admin@2025\n- **Auditeur :** audit01 / Audit@2025\n- **Utilisateur :** user01 / User@2025")
+                st.info("**Comptes par défaut créés :**\n- **Admin :** Sécurité360 / Admin@2025\n- **Auditeur :** audit01 / Audit@2025\n- **Utilisateur :** user01 / User@2025")
             else:
                 st.success("✅ Base de données déjà initialisée")
                 

@@ -155,7 +155,7 @@ class Database:
         cursor = conn.cursor()
         
         default_users = [
-            ("toufiksalah", "Admin@2025", "Admin"),
+            ("Sécurité360", "Admin@2025", "Admin"),
             ("audit01", "Audit@2025", "Auditeur"),
             ("user01", "User@2025", "Utilisateur")
         ]

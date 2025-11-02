@@ -203,7 +203,7 @@ class Auth:
         with st.expander("ℹ️ Identifiants de test"):
             st.markdown("""
             **Administrateur:**
-            - Identifiant: `toufiksalah`
+            - Identifiant: `Sécurité360`
             - Mot de passe: `Admin@2025`
             
             **Auditeur:**

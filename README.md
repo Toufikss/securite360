@@ -32,7 +32,7 @@ streamlit run app.py
 
 ## Comptes de test
 
-- **Admin**: `toufiksalah` / `Admin@2025`
+- **Admin**: `Sécurité360` / `Admin@2025`
 - **Auditeur**: `audit01` / `Audit@2025`
 
 ## License
