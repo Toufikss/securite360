@@ -556,7 +556,7 @@ Base de données: SQLite3
         <div style="text-align: center; color: {COLORS['text_secondary']}; padding: 2rem; margin-top: 2rem; border-top: 1px solid {COLORS['text_secondary']};">
             <p style="margin: 0;">© 2025 {APP_NAME}. Tous droits réservés.</p>
             <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem;">
-                Développé avec ❤️ pour la sécurité de l'information
+                Développé par mr Salah.T pour la sécurité de l'information
             </p>
         </div>
         """, unsafe_allow_html=True)
