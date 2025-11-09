@@ -325,7 +325,7 @@ def show(auth, db):
             <div style="background: linear-gradient(135deg, #2C3E50, #34495E); padding: 1.5rem; border-radius: 12px; text-align: center; height: 100%;">
                 <h3 style="color: white; margin: 0;"> Starter</h3>
                 <p style="color: rgba(255,255,255,0.8); font-size: 0.85rem;">Idéal pour débuter</p>
-                <h2 style="color: {COLORS['primary']}; margin: 1rem 0;">29€<span style="font-size: 0.5em;">/mois</span></h2>
+                <h2 style="color: {COLORS['primary']}; margin: 1rem 0;">5000DA<span style="font-size: 0.5em;">/mois</span></h2>
                 <ul style="color: white; text-align: left; font-size: 0.85rem; list-style: none; padding: 0;">
                     <li>✓ 5 utilisateurs</li>
                     <li>✓ 1 organisation</li>
@@ -341,9 +341,9 @@ def show(auth, db):
         with col2:
             st.markdown(f"""
             <div style="background: linear-gradient(135deg, #16A085, #1ABC9C); padding: 1.5rem; border-radius: 12px; text-align: center; height: 100%;">
-                <h3 style="color: white; margin: 0;">💼 Business</h3>
+                <h3 style="color: white; margin: 0;"> Business</h3>
                 <p style="color: rgba(255,255,255,0.8); font-size: 0.85rem;">Le plus populaire</p>
-                <h2 style="color: white; margin: 1rem 0;">69€<span style="font-size: 0.5em;">/mois</span></h2>
+                <h2 style="color: white; margin: 1rem 0;">25000DA<span style="font-size: 0.5em;">/mois</span></h2>
                 <ul style="color: white; text-align: left; font-size: 0.85rem; list-style: none; padding: 0;">
                     <li>✓ 20 utilisateurs</li>
                     <li>✓ 3 organisations</li>
@@ -362,7 +362,7 @@ def show(auth, db):
             <div style="background: linear-gradient(135deg, #8E44AD, #9B59B6); padding: 1.5rem; border-radius: 12px; text-align: center; height: 100%;">
                 <h3 style="color: white; margin: 0;"> Enterprise</h3>
                 <p style="color: rgba(255,255,255,0.8); font-size: 0.85rem;">Solution complète</p>
-                <h2 style="color: white; margin: 1rem 0;">149€<span style="font-size: 0.5em;">/mois</span></h2>
+                <h2 style="color: white; margin: 1rem 0;">70000DA<span style="font-size: 0.5em;">/mois</span></h2>
                 <ul style="color: white; text-align: left; font-size: 0.85rem; list-style: none; padding: 0;">
                     <li>✓ Utilisateurs illimités</li>
                     <li>✓ Organisations illimitées</li>
