@@ -454,7 +454,7 @@ def show(auth, db):
         payment_history = pd.DataFrame({
             "Date": [(datetime.now() - timedelta(days=i*30)).strftime("%d/%m/%Y") for i in range(3)],
             "Plan": ["Business", "Business", "Starter"],
-            "Montant": ["69,00 €", "69,00 €", "29,00 €"],
+            "Montant": ["25000DA", "25000DA", "5000DA"],
             "Statut": ["✅ Payé", "✅ Payé", "✅ Payé"],
             "Facture": ["📄 PDF", "📄 PDF", "📄 PDF"]
         })
